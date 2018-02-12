@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import ejb.logicEJBRemote;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,10 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.sql.*;
 
-/**
- *
- * @author Abdul
- */
 @WebServlet(urlPatterns = {"/calculate"})
 public class calculate extends HttpServlet {
     @EJB
